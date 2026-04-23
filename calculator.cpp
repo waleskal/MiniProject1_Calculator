@@ -41,7 +41,7 @@ int main(){
                 }
                 break;
             case '%': 
-                std::cout << "result:" << (int)num1 % (int)num2 << "integer modul" <<std::endl; 
+                std::cout << "result:" << (int)num1 % (int)num2 << " integer modul" <<std::endl; 
                 break;
             default: 
                 std::cout << "invalid operation. please use + or - or * or / or %. " << std::endl; 
